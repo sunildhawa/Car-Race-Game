@@ -1,0 +1,83 @@
+ body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #e0e0e0;
+    }
+
+    .game-container {
+      width: 400px;
+      height: 600px;
+      border: 3px solid black;
+      margin: 20px auto;
+      position: relative;
+      background: url('https://as1.ftcdn.net/jpg/00/54/71/02/1000_F_54710256_H5ryrgsPRuiuAGiecNqXHokBskuWS8Sa.jpg');
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    #player {
+      width: 70px;
+      height: 30px;
+      position: absolute;
+      bottom: 40px;
+      left: 165px;
+      background: url(blank-1299404_1280.webp);
+      background-position: center;
+      background-size: cover;
+      border-radius: 5px;
+      rotate: -90deg;
+    }
+
+    .enemy {
+      width: 30px;
+      height: 70px;
+      position: absolute;
+      top: 0;
+      background: url(b-removebg-preview.png);
+      background-position: center;
+      background-size: cover;
+      border-radius: 5px;
+    }
+
+    .tree {
+      width: 120px;
+      height: 60px;
+      position: absolute;
+      top: 0;
+      background: url(1-removebg-preview.png);
+      background-position: center;
+      background-size: cover;
+     
+    }
+
+    .tree.left {
+      left: -50px;
+    }
+
+    .tree.right {
+      right: -40px;
+    }
+
+    #game-over {
+      font-size: 30px;
+      font-weight: 800;
+      color: red;
+      display: none;
+      position: absolute;
+      top: 250px;
+      left: 100px;
+    }
+
+    .controls button {
+      padding: 20px ;
+      margin: 20px;
+      font-size: 26px;
+    }
+
+    #scoreBoard {
+      font-size: 20px;
+      margin-top: 20px;
+    }
